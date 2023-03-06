@@ -1,0 +1,188 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="type" type="xs:string"/>
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="timezone" type="xs:short"/>
+  <xs:element name="location">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="name" minOccurs="0"/>
+        <xs:element ref="type" minOccurs="0"/>
+        <xs:element ref="country" minOccurs="0"/>
+        <xs:element ref="timezone" minOccurs="0"/>
+        <xs:element ref="location" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="altitude" use="optional"/>
+      <xs:attribute type="xs:float" name="latitude" use="optional"/>
+      <xs:attribute type="xs:float" name="longitude" use="optional"/>
+      <xs:attribute type="xs:string" name="geobase" use="optional"/>
+      <xs:attribute type="xs:int" name="geobaseid" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lastupdate" type="xs:string"/>
+  <xs:element name="calctime" type="xs:byte"/>
+  <xs:element name="nextupdate" type="xs:string"/>
+  <xs:element name="symbol">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:short" name="number" use="optional"/>
+          <xs:attribute type="xs:string" name="name" use="optional"/>
+          <xs:attribute type="xs:string" name="var" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="precipitation">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:float" name="probability" use="optional"/>
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+          <xs:attribute type="xs:float" name="value" use="optional"/>
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="windDirection">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:short" name="deg" use="optional"/>
+          <xs:attribute type="xs:string" name="code" use="optional"/>
+          <xs:attribute type="xs:string" name="name" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="windSpeed">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:float" name="mps" use="optional"/>
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+          <xs:attribute type="xs:string" name="name" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="temperature">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+          <xs:attribute type="xs:float" name="value" use="optional"/>
+          <xs:attribute type="xs:float" name="min" use="optional"/>
+          <xs:attribute type="xs:float" name="max" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feels_like">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:float" name="value" use="optional"/>
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pressure">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+          <xs:attribute type="xs:short" name="value" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="humidity">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:byte" name="value" use="optional"/>
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="clouds">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="value" use="optional"/>
+          <xs:attribute type="xs:byte" name="all" use="optional"/>
+          <xs:attribute type="xs:string" name="unit" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="visibility">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:short" name="value" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="time">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="symbol"/>
+        <xs:element ref="precipitation"/>
+        <xs:element ref="windDirection"/>
+        <xs:element ref="windSpeed"/>
+        <xs:element ref="temperature"/>
+        <xs:element ref="feels_like"/>
+        <xs:element ref="pressure"/>
+        <xs:element ref="humidity"/>
+        <xs:element ref="clouds"/>
+        <xs:element ref="visibility"/>
+      </xs:sequence>
+      <xs:attribute type="xs:dateTime" name="from" use="optional"/>
+      <xs:attribute type="xs:dateTime" name="to" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="credit" type="xs:string"/>
+  <xs:element name="meta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lastupdate"/>
+        <xs:element ref="calctime"/>
+        <xs:element ref="nextupdate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sun">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:dateTime" name="rise"/>
+          <xs:attribute type="xs:dateTime" name="set"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forecast">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="time" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="weatherdata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="location"/>
+        <xs:element ref="credit"/>
+        <xs:element ref="meta"/>
+        <xs:element ref="sun"/>
+        <xs:element ref="forecast"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

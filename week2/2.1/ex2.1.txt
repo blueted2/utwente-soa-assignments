@@ -1,0 +1,71 @@
+Q1:
+This Dockerfile contains three instructions, thus the created image will have three layers. 
+
+The first line "FROM scratch" indicates that this Docker image will be based on a previous image called "scratch". More specifically, the "scratch" image is Docker's reserved minimal image. 
+The second line "COPY hello /" indicates that the local file "hello" gets copied into the images root ("/").
+The third line "CMD ["/hello"]" is the command that will be run (by default) when the built container is executed. Here it is the "hello" binary. 
+
+In these examples, the "hello" binary is responsible for generating the text that gets displayed. The Docker engine simply redirects this output to our terminal.
+
+---
+Q2:
+The message "Unable to find image 'ubuntu:latest' locally" indicates that the "ubuntu:latest" image has not yet been downloaded and cached locally. Docker must therefore obtain this image from an image registry (by default Docker Hub). This is done automatically when building the image.
+
+---
+Q3:
+The results of "uname -a" indicate that the command was executed on a Linux machine. 
+In the run command, the parameters "-it" indicate that we want to access the container via an interactive shell, and the "bash" parameter is the command we want to run in the container. This means we get an interactive shell into the running container, so the "uname -a" command is indeed run from within the container.
+
+---
+
+Q4:
+In a "bridge" network, running containers each get their own network, however these individual networks can be "bridged" or joined together to allow access between containers. 
+It is possible to create user-defined network bridges in which only a subset of containers can communicate with each other. This mode can be used when multiple standalone containers running on a common host need to communicate.
+
+In a "host" network, running containers do not get their own isolated networks, instead they become part of the host's network. This can be used when the additional layer of isolation is either not needed, or when it starts impacting performance (“bridge” mode involves an additional NAT).
+
+---
+Q5:
+In containerization, storage is ephemeral, meaning that it is not preserved between container executions. This problem can be negated by mounting a persistent storage volume (managed by the host) onto the container. 
+
+---
+Q6:
+There are many situations in which the ephemeral nature of a container's storage can cause issues, such as for keeping databases or logs. 
+
+---
+Q7:
+There are many ways of configuring a Dockerfile to run this application.
+We could either simply copy the project and use "./gradlew bootRun" which both compiles and runs the server, or we could separate both operations. This would have the advantage of reducing the size of the container as the source code does not need to be included at runtime, only during compilation.
+
+The following is a possible implementation (with comments).
+
+'''
+FROM amazoncorretto:17
+
+# copy project sources
+COPY workshop-docker/ /workshop-docker
+
+# move into the project
+WORKDIR /workshop-docker
+
+# compile project
+RUN ./gradlew bootJar
+
+# move back to root
+WORKDIR /
+
+# move jar into root, rename to "app.jar"
+RUN mv workshop-docker/build/libs/sampleWebapplication-0.0.1-SNAPSHOT.jar /app.jar
+
+# remove sources
+RUN rm -r workshop-docker
+
+# forward port
+EXPOSE 8080
+
+# run the server
+CMD ["java", "-jar", "app.jar"]
+'''
+
+This Dockerfile copies the server sources into the container, compiles the project, moves the built ".jar" into the root, removes the now unused sources, exposes the server port and finally runs the server.
+

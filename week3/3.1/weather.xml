@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="weather.xslt"?>
+<weatherdata>
+	<location>
+		<name>Enschede</name>
+		<type/>
+		<country>NL</country>
+		<timezone>3600</timezone>
+		<location altitude="0" latitude="52.2183" longitude="6.8958" geobase="geonames" geobaseid="2756071"/>
+		<accuracy>90</accuracy>
+	</location>
+	<credit/>
+	<meta>
+		<lastupdate/>
+		<calctime>0</calctime>
+		<nextupdate/>
+	</meta>
+	<sun rise="2021-02-03T07:09:47" set="2021-02-03T16:22:40"/>
+	<moon rise="2021-02-03T16:22:40" set="2021-02-04T07:20:47"/>
+	<forecast>
+		<time from="2021-02-03T15:00:00" to="2021-02-03T18:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="1" unit="3h" value="2.06" type="rain"/>
+			<windDirection deg="284" code="WNW" name="West-northwest"/>
+			<windSpeed mps="2.23" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="280.49" min="280.24" max="280.49"/>
+			<feels_like value="278.24" unit="kelvin"/>
+			<pressure unit="hPa" value="993"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-03T18:00:00" to="2021-02-03T21:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="1" unit="3h" value="0.55" type="rain"/>
+			<windDirection deg="295" code="WNW" name="West-northwest"/>
+			<windSpeed mps="4.96" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="279.91" min="279.69" max="279.91"/>
+			<feels_like value="275.52" unit="kelvin"/>
+			<pressure unit="hPa" value="997"/>
+			<humidity value="95" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-03T21:00:00" to="2021-02-04T00:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="1" unit="3h" value="1" type="rain"/>
+			<windDirection deg="260" code="W" name="West"/>
+			<windSpeed mps="5.68" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="279.9" min="279.84" max="279.9"/>
+			<feels_like value="274.91" unit="kelvin"/>
+			<pressure unit="hPa" value="1002"/>
+			<humidity value="92" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T00:00:00" to="2021-02-04T03:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="0.23" unit="3h" value="0.32" type="rain"/>
+			<windDirection deg="248" code="WSW" name="West-southwest"/>
+			<windSpeed mps="6.39" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="279.47" min="279.46" max="279.47"/>
+			<feels_like value="273.9" unit="kelvin"/>
+			<pressure unit="hPa" value="1006"/>
+			<humidity value="92" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T03:00:00" to="2021-02-04T06:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="0.32" unit="3h" value="0.19" type="rain"/>
+			<windDirection deg="242" code="WSW" name="West-southwest"/>
+			<windSpeed mps="5.19" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="278.05" min="278.05" max="278.05"/>
+			<feels_like value="272.93" unit="kelvin"/>
+			<pressure unit="hPa" value="1009"/>
+			<humidity value="88" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T06:00:00" to="2021-02-04T09:00:00">
+			<symbol number="801" name="few clouds" var="02d"/>
+			<precipitation probability="0"/>
+			<windDirection deg="236" code="SW" name="Southwest"/>
+			<windSpeed mps="5.97" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="278.62" min="278.62" max="278.62"/>
+			<feels_like value="273.09" unit="kelvin"/>
+			<pressure unit="hPa" value="1011"/>
+			<humidity value="89" unit="%"/>
+			<clouds value="few clouds" all="21" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T09:00:00" to="2021-02-04T12:00:00">
+			<symbol number="802" name="scattered clouds" var="03d"/>
+			<precipitation probability="0"/>
+			<windDirection deg="240" code="WSW" name="West-southwest"/>
+			<windSpeed mps="5.8" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="281.28" min="281.28" max="281.28"/>
+			<feels_like value="276.07" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="80" unit="%"/>
+			<clouds value="scattered clouds" all="34" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T12:00:00" to="2021-02-04T15:00:00">
+			<symbol number="803" name="broken clouds" var="04d"/>
+			<precipitation probability="0"/>
+			<windDirection deg="248" code="WSW" name="West-southwest"/>
+			<windSpeed mps="4" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="281.1" min="281.1" max="281.1"/>
+			<feels_like value="277.15" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="81" unit="%"/>
+			<clouds value="broken clouds" all="82" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T15:00:00" to="2021-02-04T18:00:00">
+			<symbol number="803" name="broken clouds" var="04n"/>
+			<precipitation probability="0"/>
+			<windDirection deg="191" code="S" name="South"/>
+			<windSpeed mps="1.29" unit="m/s" name="Calm"/>
+			<temperature unit="kelvin" value="278.36" min="278.36" max="278.36"/>
+			<feels_like value="276.08" unit="kelvin"/>
+			<pressure unit="hPa" value="1014"/>
+			<humidity value="90" unit="%"/>
+			<clouds value="broken clouds" all="56" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T18:00:00" to="2021-02-04T21:00:00">
+			<symbol number="803" name="broken clouds" var="04n"/>
+			<precipitation probability="0.21"/>
+			<windDirection deg="148" code="SSE" name="South-southeast"/>
+			<windSpeed mps="2.43" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="278.34" min="278.34" max="278.34"/>
+			<feels_like value="275.23" unit="kelvin"/>
+			<pressure unit="hPa" value="1014"/>
+			<humidity value="89" unit="%"/>
+			<clouds value="broken clouds" all="65" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-04T21:00:00" to="2021-02-05T00:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="0.33" unit="3h" value="0.31" type="rain"/>
+			<windDirection deg="124" code="SE" name="SouthEast"/>
+			<windSpeed mps="3.12" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="278.78" min="278.78" max="278.78"/>
+			<feels_like value="275.24" unit="kelvin"/>
+			<pressure unit="hPa" value="1015"/>
+			<humidity value="88" unit="%"/>
+			<clouds value="broken clouds" all="81" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T00:00:00" to="2021-02-05T03:00:00">
+			<symbol number="803" name="broken clouds" var="04n"/>
+			<precipitation probability="0.07"/>
+			<windDirection deg="115" code="ESE" name="East-southeast"/>
+			<windSpeed mps="2.76" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="277.92" min="277.92" max="277.92"/>
+			<feels_like value="274.56" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="91" unit="%"/>
+			<clouds value="broken clouds" all="81" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T03:00:00" to="2021-02-05T06:00:00">
+			<symbol number="803" name="broken clouds" var="04n"/>
+			<precipitation probability="0"/>
+			<windDirection deg="122" code="ESE" name="East-southeast"/>
+			<windSpeed mps="3.53" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="277.51" min="277.51" max="277.51"/>
+			<feels_like value="273.57" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="92" unit="%"/>
+			<clouds value="broken clouds" all="76" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T06:00:00" to="2021-02-05T09:00:00">
+			<symbol number="803" name="broken clouds" var="04d"/>
+			<precipitation probability="0"/>
+			<windDirection deg="130" code="SE" name="SouthEast"/>
+			<windSpeed mps="3.95" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="278.83" min="278.83" max="278.83"/>
+			<feels_like value="274.69" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="87" unit="%"/>
+			<clouds value="broken clouds" all="67" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T09:00:00" to="2021-02-05T12:00:00">
+			<symbol number="500" name="light rain" var="10d"/>
+			<precipitation probability="0.2" unit="3h" value="0.21" type="rain"/>
+			<windDirection deg="171" code="S" name="South"/>
+			<windSpeed mps="2.93" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="281.35" min="281.35" max="281.35"/>
+			<feels_like value="278.27" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="83" unit="%"/>
+			<clouds value="broken clouds" all="79" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T12:00:00" to="2021-02-05T15:00:00">
+			<symbol number="804" name="overcast clouds" var="04d"/>
+			<precipitation probability="0.1"/>
+			<windDirection deg="187" code="S" name="South"/>
+			<windSpeed mps="1.68" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="281.45" min="281.45" max="281.45"/>
+			<feels_like value="279.41" unit="kelvin"/>
+			<pressure unit="hPa" value="1012"/>
+			<humidity value="87" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T15:00:00" to="2021-02-05T18:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="0.2" unit="3h" value="0.15" type="rain"/>
+			<windDirection deg="202" code="SSW" name="South-southwest"/>
+			<windSpeed mps="0.94" unit="m/s" name="Calm"/>
+			<temperature unit="kelvin" value="280.53" min="280.53" max="280.53"/>
+			<feels_like value="278.99" unit="kelvin"/>
+			<pressure unit="hPa" value="1013"/>
+			<humidity value="92" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T18:00:00" to="2021-02-05T21:00:00">
+			<symbol number="804" name="overcast clouds" var="04n"/>
+			<precipitation probability="0"/>
+			<windDirection deg="103" code="ESE" name="East-southeast"/>
+			<windSpeed mps="1.06" unit="m/s" name="Calm"/>
+			<temperature unit="kelvin" value="280.23" min="280.23" max="280.23"/>
+			<feels_like value="278.51" unit="kelvin"/>
+			<pressure unit="hPa" value="1012"/>
+			<humidity value="91" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-05T21:00:00" to="2021-02-06T00:00:00">
+			<symbol number="804" name="overcast clouds" var="04n"/>
+			<precipitation probability="0"/>
+			<windDirection deg="75" code="ENE" name="East-northeast"/>
+			<windSpeed mps="2.16" unit="m/s" name="Light breeze"/>
+			<temperature unit="kelvin" value="279.9" min="279.9" max="279.9"/>
+			<feels_like value="277.41" unit="kelvin"/>
+			<pressure unit="hPa" value="1012"/>
+			<humidity value="93" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T00:00:00" to="2021-02-06T03:00:00">
+			<symbol number="804" name="overcast clouds" var="04n"/>
+			<precipitation probability="0"/>
+			<windDirection deg="66" code="ENE" name="East-northeast"/>
+			<windSpeed mps="3.59" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="278.48" min="278.48" max="278.48"/>
+			<feels_like value="274.73" unit="kelvin"/>
+			<pressure unit="hPa" value="1011"/>
+			<humidity value="94" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T03:00:00" to="2021-02-06T06:00:00">
+			<symbol number="804" name="overcast clouds" var="04n"/>
+			<precipitation probability="0"/>
+			<windDirection deg="67" code="ENE" name="East-northeast"/>
+			<windSpeed mps="4.99" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="276.93" min="276.93" max="276.93"/>
+			<feels_like value="271.95" unit="kelvin"/>
+			<pressure unit="hPa" value="1010"/>
+			<humidity value="95" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T06:00:00" to="2021-02-06T09:00:00">
+			<symbol number="804" name="overcast clouds" var="04d"/>
+			<precipitation probability="0"/>
+			<windDirection deg="78" code="ENE" name="East-northeast"/>
+			<windSpeed mps="6.5" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="277.72" min="277.72" max="277.72"/>
+			<feels_like value="271.68" unit="kelvin"/>
+			<pressure unit="hPa" value="1009"/>
+			<humidity value="90" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T09:00:00" to="2021-02-06T12:00:00">
+			<symbol number="804" name="overcast clouds" var="04d"/>
+			<precipitation probability="0.01"/>
+			<windDirection deg="76" code="ENE" name="East-northeast"/>
+			<windSpeed mps="7.8" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="277.86" min="277.86" max="277.86"/>
+			<feels_like value="270.77" unit="kelvin"/>
+			<pressure unit="hPa" value="1008"/>
+			<humidity value="84" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T12:00:00" to="2021-02-06T15:00:00">
+			<symbol number="804" name="overcast clouds" var="04d"/>
+			<precipitation probability="0.43"/>
+			<windDirection deg="69" code="ENE" name="East-northeast"/>
+			<windSpeed mps="9.87" unit="m/s" name="Fresh Breeze"/>
+			<temperature unit="kelvin" value="276.48" min="276.48" max="276.48"/>
+			<feels_like value="267.69" unit="kelvin"/>
+			<pressure unit="hPa" value="1005"/>
+			<humidity value="83" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T15:00:00" to="2021-02-06T18:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="0.63" unit="3h" value="1.74" type="rain"/>
+			<windDirection deg="71" code="ENE" name="East-northeast"/>
+			<windSpeed mps="11.48" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="274.12" min="274.12" max="274.12"/>
+			<feels_like value="264.07" unit="kelvin"/>
+			<pressure unit="hPa" value="1004"/>
+			<humidity value="92" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="10000"/>
+		</time>
+		<time from="2021-02-06T18:00:00" to="2021-02-06T21:00:00">
+			<symbol number="500" name="light rain" var="10n"/>
+			<precipitation probability="1" unit="3h" value="0.82" type="rain"/>
+			<windDirection deg="71" code="ENE" name="East-northeast"/>
+			<windSpeed mps="11.22" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="272.98" min="272.98" max="272.98"/>
+			<feels_like value="263.1" unit="kelvin"/>
+			<pressure unit="hPa" value="1003"/>
+			<humidity value="99" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="604"/>
+		</time>
+		<time from="2021-02-06T21:00:00" to="2021-02-07T00:00:00">
+			<symbol number="601" name="snow" var="13n"/>
+			<precipitation probability="1" unit="3h" value="7.1" type="snow"/>
+			<windDirection deg="67" code="ENE" name="East-northeast"/>
+			<windSpeed mps="11.95" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="271.35" min="271.35" max="271.35"/>
+			<feels_like value="260.72" unit="kelvin"/>
+			<pressure unit="hPa" value="1001"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="317"/>
+		</time>
+		<time from="2021-02-07T00:00:00" to="2021-02-07T03:00:00">
+			<symbol number="601" name="snow" var="13n"/>
+			<precipitation probability="0.99" unit="3h" value="6.76" type="snow"/>
+			<windDirection deg="73" code="ENE" name="East-northeast"/>
+			<windSpeed mps="11.9" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="270.31" min="270.31" max="270.31"/>
+			<feels_like value="259.58" unit="kelvin"/>
+			<pressure unit="hPa" value="1000"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="550"/>
+		</time>
+		<time from="2021-02-07T03:00:00" to="2021-02-07T06:00:00">
+			<symbol number="601" name="snow" var="13n"/>
+			<precipitation probability="1" unit="3h" value="3.98" type="snow"/>
+			<windDirection deg="71" code="ENE" name="East-northeast"/>
+			<windSpeed mps="10.98" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="269.59" min="269.59" max="269.59"/>
+			<feels_like value="259.42" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="909"/>
+		</time>
+		<time from="2021-02-07T06:00:00" to="2021-02-07T09:00:00">
+			<symbol number="804" name="overcast clouds" var="04d"/>
+			<precipitation probability="0.8"/>
+			<windDirection deg="71" code="ENE" name="East-northeast"/>
+			<windSpeed mps="11.08" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="269.29" min="269.29" max="269.29"/>
+			<feels_like value="259" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="97" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="1335"/>
+		</time>
+		<time from="2021-02-07T09:00:00" to="2021-02-07T12:00:00">
+			<symbol number="804" name="overcast clouds" var="04d"/>
+			<precipitation probability="0.8"/>
+			<windDirection deg="72" code="ENE" name="East-northeast"/>
+			<windSpeed mps="11.08" unit="m/s" name="Strong breeze"/>
+			<temperature unit="kelvin" value="269.07" min="269.07" max="269.07"/>
+			<feels_like value="258.77" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="1191"/>
+		</time>
+		<time from="2021-02-07T12:00:00" to="2021-02-07T15:00:00">
+			<symbol number="600" name="light snow" var="13d"/>
+			<precipitation probability="0.93" unit="3h" value="0.5" type="snow"/>
+			<windDirection deg="73" code="ENE" name="East-northeast"/>
+			<windSpeed mps="10.55" unit="m/s" name="Fresh Breeze"/>
+			<temperature unit="kelvin" value="269.3" min="269.3" max="269.3"/>
+			<feels_like value="259.39" unit="kelvin"/>
+			<pressure unit="hPa" value="998"/>
+			<humidity value="97" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="3048"/>
+		</time>
+		<time from="2021-02-07T15:00:00" to="2021-02-07T18:00:00">
+			<symbol number="804" name="overcast clouds" var="04n"/>
+			<precipitation probability="0.8"/>
+			<windDirection deg="73" code="ENE" name="East-northeast"/>
+			<windSpeed mps="10.36" unit="m/s" name="Fresh Breeze"/>
+			<temperature unit="kelvin" value="269.45" min="269.45" max="269.45"/>
+			<feels_like value="259.7" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="729"/>
+		</time>
+		<time from="2021-02-07T18:00:00" to="2021-02-07T21:00:00">
+			<symbol number="601" name="snow" var="13n"/>
+			<precipitation probability="1" unit="3h" value="2.11" type="snow"/>
+			<windDirection deg="70" code="ENE" name="East-northeast"/>
+			<windSpeed mps="9.4" unit="m/s" name="Fresh Breeze"/>
+			<temperature unit="kelvin" value="269.18" min="269.18" max="269.18"/>
+			<feels_like value="260.07" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="1044"/>
+		</time>
+		<time from="2021-02-07T21:00:00" to="2021-02-08T00:00:00">
+			<symbol number="600" name="light snow" var="13n"/>
+			<precipitation probability="1" unit="3h" value="1.3" type="snow"/>
+			<windDirection deg="71" code="ENE" name="East-northeast"/>
+			<windSpeed mps="8.76" unit="m/s" name="Fresh Breeze"/>
+			<temperature unit="kelvin" value="268.31" min="268.31" max="268.31"/>
+			<feels_like value="259.56" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="2682"/>
+		</time>
+		<time from="2021-02-08T00:00:00" to="2021-02-08T03:00:00">
+			<symbol number="600" name="light snow" var="13n"/>
+			<precipitation probability="0.47" unit="3h" value="0.26" type="snow"/>
+			<windDirection deg="73" code="ENE" name="East-northeast"/>
+			<windSpeed mps="8.37" unit="m/s" name="Fresh Breeze"/>
+			<temperature unit="kelvin" value="267.59" min="267.59" max="267.59"/>
+			<feels_like value="259.02" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="97" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="6937"/>
+		</time>
+		<time from="2021-02-08T03:00:00" to="2021-02-08T06:00:00">
+			<symbol number="600" name="light snow" var="13n"/>
+			<precipitation probability="0.51" unit="3h" value="0.43" type="snow"/>
+			<windDirection deg="75" code="ENE" name="East-northeast"/>
+			<windSpeed mps="7.4" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="267.06" min="267.06" max="267.06"/>
+			<feels_like value="259.13" unit="kelvin"/>
+			<pressure unit="hPa" value="999"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="638"/>
+		</time>
+		<time from="2021-02-08T06:00:00" to="2021-02-08T09:00:00">
+			<symbol number="600" name="light snow" var="13d"/>
+			<precipitation probability="0.89" unit="3h" value="0.79" type="snow"/>
+			<windDirection deg="72" code="ENE" name="East-northeast"/>
+			<windSpeed mps="6.82" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="266.83" min="266.83" max="266.83"/>
+			<feels_like value="259.29" unit="kelvin"/>
+			<pressure unit="hPa" value="1000"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="252"/>
+		</time>
+		<time from="2021-02-08T09:00:00" to="2021-02-08T12:00:00">
+			<symbol number="600" name="light snow" var="13d"/>
+			<precipitation probability="0.94" unit="3h" value="0.43" type="snow"/>
+			<windDirection deg="70" code="ENE" name="East-northeast"/>
+			<windSpeed mps="6.21" unit="m/s" name="Moderate breeze"/>
+			<temperature unit="kelvin" value="267.38" min="267.38" max="267.38"/>
+			<feels_like value="260.32" unit="kelvin"/>
+			<pressure unit="hPa" value="1001"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="1101"/>
+		</time>
+		<time from="2021-02-08T12:00:00" to="2021-02-08T15:00:00">
+			<symbol number="600" name="light snow" var="13d"/>
+			<precipitation probability="0.53" unit="3h" value="0.36" type="snow"/>
+			<windDirection deg="66" code="ENE" name="East-northeast"/>
+			<windSpeed mps="5.04" unit="m/s" name="Gentle Breeze"/>
+			<temperature unit="kelvin" value="267.51" min="267.51" max="267.51"/>
+			<feels_like value="261.28" unit="kelvin"/>
+			<pressure unit="hPa" value="1001"/>
+			<humidity value="98" unit="%"/>
+			<clouds value="overcast clouds" all="100" unit="%"/>
+			<visibility value="324"/>
+		</time>
+	</forecast>
+</weatherdata>

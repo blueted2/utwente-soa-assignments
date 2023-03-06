@@ -1,0 +1,10 @@
+[submodule "week3/3.2/workshop-rest"]
+	path = week3/3.2/workshop-rest
+	url = https://github.com/blueted2/utwente-soa-workshop-rest
+[submodule "week3/3.1/workshop-json"]
+	path = week3/3.1/workshop-json
+	url = https://gitlab.utwente.nl/soa-course/workshop-rest
+[submodule "week2/2.1/workshop-docker"]
+	path = workshop-docker
+	url = https://gitlab.utwente.nl/soa-course/workshop-docker
+
