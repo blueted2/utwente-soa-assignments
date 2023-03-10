@@ -7,4 +7,6 @@
 [submodule "week2/2.1/workshop-docker"]
 	path = workshop-docker
 	url = https://gitlab.utwente.nl/soa-course/workshop-docker
-
+[submodule "week4/4.1/1/microservice-ecommerce"]
+	path = week4/4.1/1/microservice-ecommerce
+	url = https://github.com/amollimaye/microservices-ecommerce
