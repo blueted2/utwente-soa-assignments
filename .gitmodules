@@ -10,3 +10,18 @@
 [submodule "week4/4.1/1/microservice-ecommerce"]
 	path = week4/4.1/1/microservice-ecommerce
 	url = https://github.com/amollimaye/microservices-ecommerce
+[submodule "week4/4.1/2/microservice-ecommerce-2"]
+	path = week4/4.1/2/microservice-ecommerce-2
+	url = https://github.com/amollimaye/microservices-ecommerce-2
+[submodule "week5/5.2/workshop-http"]
+	path = week5/5.2/workshop-http
+	url = https://gitlab.utwente.nl/soa-course/workshop-http
+[submodule "week6/workshop-challenges"]
+	path = week6/workshop-challenges
+	url = https://gitlab.utwente.nl/soa-course/workshop-challenges
+[submodule "week6/blog_service"]
+	path = week6/blog_service
+	url = https://gitlab.utwente.nl/soa-course/workshop-challenges
+[submodule "week6/comment_service"]
+	path = week6/comment_service
+	url = https://gitlab.utwente.nl/soa-course/workshop-challenges
